@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fb</title>
+</head>
+<body>
+    <div>
+        <header>
+            <div class="container d-flex justify-content-between header">
+                <div class="header-input">
+                    <label for="email">Email or Phone</label><br>
+                    <input type="text" id="email"/>
+                </div>
+                <div class="header-input">
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password"/>
+                    <p>Forgot your password?</p>
+                </div>
+                <div class="header-input">
+                    <button type="submit" id="Login-Button" >Log In</button>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <div class="container">
+                <p class="h1">Sign Up</p>
+                <p class="description">It's free and always will be.</p>
+
+                <form>
+                    <div class="row mb-2">
+                        <div class="col-lg">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="First Name">
+                              </div>
+                        </div>
+                        <div class="col-lg">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Last Name">
+                              </div>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-lg">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Mobile Number">
+                              </div>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-lg">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Re-Enter Mobile Number">
+                              </div>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-lg">
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="New Password">
+                              </div>
+                        </div>
+                    </div>
+                    <p class="birthday">BirthDay</p>
+                    <div class="dob d-flex justify-content-start">
+                        <div class="btn-group">
+                                <button class="btn btn-light btn-sm dropdown-toggle rounded-0 border-secondary" type="button" data-bs-toggle="dropdown">
+                                Month
+                                </button>
+                                <button class="btn btn-light btn-sm dropdown-toggle rounded-0 border-secondary" type="button" data-bs-toggle="dropdown">
+                                    Day
+                                </button>
+                                <button class="btn btn-light btn-sm dropdown-toggle rounded-0 border-secondary" type="button" data-bs-toggle="dropdown">
+                                    Year
+                                </button>
+                        </div>
+                        <div class="btn-group__description d-inline ">
+                            <a href="#">
+                                <span>Why do i need to provide my birthday?</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="form-group my-2">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">Female</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio"  id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">Male</label>
+                            </div>
+                    </div>
+                    <p class="bottom-description">
+                        By clicking Sign Up. you agree to our <a href="#">Terms</a> and that you have<br>
+                        read our <a  href="#">Data Policy</a>, including our <a  href="#">Cookie Use.</a>
+                    </p>
+                    
+                    <button type="submit" class="btn btn-success border">Sign Up</button>
+                  </form>
+            </div>
+
+        </section>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
+</body>
+</html>
